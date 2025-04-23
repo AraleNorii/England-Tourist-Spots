@@ -1,0 +1,103 @@
+/* FILE: style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-attachment: fixed;
+  overflow-y: auto;
+  display: block;
+}
+
+.menu, .page {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  text-align: center;
+  margin: 2em auto;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.btn {
+  padding: 1em;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Unique background classes for each page */
+.index-bg {
+  background: url('image/englandBG.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.tower-bg {
+  background: url('image/towerBG.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.stonehenge-bg {
+  background: url('image/stoneBG.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.westminster-bg {
+  background: url('image/westBG.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.lake-bg {
+  background: url('image/lakeBG.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.stratford-bg {
+  background: url('image/stratfordBG.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Gallery Image Style */
+.gallery-img {
+  display: block;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  margin: 2em auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
